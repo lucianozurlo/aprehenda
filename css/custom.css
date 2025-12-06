@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+*,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+p.t-large,
+.btn,
+.btn-default {
+  font-family: "DM Sans", sans-serif !important;
+}
+#scroll-to-top {
+  display: none;
+}
+.centrado {
+  text-align: center !important;
+}
+
+/* COLOR */
+:root {
+  --verde: #c8f31d;
+  --celeste: #1dc8f3;
+  --violeta: #7b1df3;
+  --magenta: #f31dc8;
+  --naranja: #ff6b4a;
+}
+
+/* MENU */
+.mxd-menu__inner {
+  padding-bottom: 0;
+}
+.mxd-menu__left {
+  padding-top: 6rem;
+  padding: 7rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* HEADER */
+.mxd-nav__contain {
+  margin-top: 2rem;
+}
+.header-bg {
+  position: fixed;
+  width: 100%;
+  height: 96px;
+  left: 0;
+  background-color: #faf7f699;
+  backdrop-filter: blur(10px);
+  z-index: 100;
+}
+header .header-content {
+  max-width: 1740px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header .mxd-logo img {
+  height: 5rem;
+}
+.mxd-header {
+  position: fixed;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  width: calc(100% - 18rem);
+}
+.mxd-header.is-hidden {
+  opacity: 1;
+  transform: unset;
+}
+.mxd-header .mxd-header__logo {
+  filter: brightness(1);
+  transition: all 1s ease-in-out;
+}
+.mxd-header.is-hidden .mxd-header__logo {
+  filter: brightness(0);
+}
+.mxd-header.is-hidden .mxd-header__logo:hover {
+  filter: brightness(1);
+}
+
+/* COMO FUNCIONA */
+.mxd-services-stack__work {
+  width: 100%;
+}
+.tag-permanent {
+  background-color: #00000055;
+  border-style: solid;
+  border-color: #000;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0 1.8rem;
+  height: 4rem;
+}
+
+/* REGALA CONOCIMIENTO */
+#regalaconocimiento .mxd-promo__bg {
+  background-position: right;
+  width: 100%;
+  background-image: url(../img/regala.jpg);
+}
+
+/* PARTNERS */
+#partners-logos .marquee__item.item-partners img {
+  max-height: 140px;
+  object-fit: contain;
+}
+
+/* EMPRESAS */
+#empresas {
+  background-color: #fff;
+  padding: 120px 0 40px;
+}
+#empresas h2,
+#empresas h5 {
+  margin-bottom: 20px;
+}
+#empresas .mxd-approach-list__inner {
+  padding: 6rem 0 6rem 16.66666667%;
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+
+/* INSTITUCIONES */
+#instituciones {
+  background-color: #000;
+  padding: 8rem 0 12rem;
+}
+#instituciones .mxd-section-title {
+  margin-bottom: 2.6rem;
+}
+#instituciones .mxd-section-title h2 {
+  margin-bottom: 2rem;
+}
+#instituciones .mxd-card-bg {
+  fill: url(#purple-radial-grad);
+}
+
+/* TESTIMONIOS */
+#testimonios {
+  padding: 120px 0 100px;
+}
+#testimonios .mxd-testimonials-card {
+  height: 600px;
+}
+
+/* FAQ */
+#faq {
+  /* background-color: #fff; */
+  padding: 12rem 0;
+}
+#faq h2 {
+  margin-bottom: 2rem;
+}
+
+/* SEPARADOR REEL */
+#separador-reel {
+  padding-bottom: 0;
+  background-image: linear-gradient(to bottom, #fff, #faf7f6);
+}
+
+/* CONTACTO */
+#contacto ..mxd-section-title {
+  padding-bottom: 10rem;
+}
+#contacto .btn-line-headline {
+  font-size: 8rem;
+  margin-bottom: 2rem;
+}
+#contacto .btn-line-headline i {
+  font-size: 7.1rem;
+}
+
+#contacto .mxd-section.padding-grid-pre-mtext {
+  padding-bottom: 0;
+}
+
+/* FOOTER */
+footer .mxd-footer__fullwidth-text img {
+  max-width: 90rem;
+}
+footer .mxd-footer__footer-blocks {
+  display: flex;
+  justify-content: center;
+}
+footer .footer-blocks__column {
+  height: unset;
+  max-width: 110rem;
+}
