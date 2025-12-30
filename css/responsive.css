@@ -1,0 +1,49 @@
+/* TABLET: Landscape 
+   ================= */
+@media only screen and (max-width: 1200px) {
+}
+
+/* TABLET: Portrait Only
+   ===================== */
+@media only screen and (min-width: 740px) and (max-width: 960px) {
+}
+
+/* TABLET: Portrait
+   ================ */
+@media only screen and (max-width: 960px) {
+}
+
+/* MOBILE PHONES
+   ============= */
+@media only screen and (max-width: 739px) {
+  .btn-to-top {
+    display: none;
+  }
+  .header-bg {
+    height: 85px;
+  }
+  .mxd-header {
+    padding: 2rem 3rem;
+    width: 100%;
+    left: 0;
+  }
+  #instituciones .mxd-paragraph__controls {
+    width: calc(100% - 6rem);
+    left: 3rem;
+    bottom: 3rem;
+    right: unset;
+  }
+  #empresas .mxd-approach-list__inner {
+    padding: 3rem;
+  }
+  #faq {
+    padding: 5rem 0;
+  }
+  #contacto .btn-line-headline,
+  #contacto .btn-line-headline i {
+    font-size: 3rem;
+  }
+  #contacto .mxd-section-title {
+    padding-bottom: 0rem;
+  }
+}

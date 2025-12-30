@@ -87,8 +87,45 @@ header .mxd-logo img {
   filter: brightness(1);
 }
 
+/* HERO */
+#hero .content-text {
+  margin-bottom: 11rem;
+}
+#hero .content-text h1 {
+  position: absolute;
+}
+#hero .content-text .text {
+  padding-left: 0.75rem;
+  margin-top: 170px;
+}
+#hero .content-text .text p:last-child {
+  margin-top: 20px;
+}
+
+/* INSTITUCIONAL */
+#institucional h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#institucional .p-bottom {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 50px;
+}
+
 /* COMO FUNCIONA */
-.mxd-services-stack__work {
+#como-funciona {
+  margin-top: 120px;
+}
+#como-funciona .container-fluid {
+  margin-bottom: 80px;
+}
+#como-funciona .mxd-block__content {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+#como-funciona .mxd-services-stack__work {
   width: 100%;
 }
 .tag-permanent {
@@ -101,23 +138,37 @@ header .mxd-logo img {
   height: 4rem;
 }
 
-/* REGALA CONOCIMIENTO */
-#regalaconocimiento .mxd-promo__bg {
-  background-position: right;
-  width: 100%;
-  background-image: url(../img/regala.jpg);
+/* INSTITUCIONES */
+#instituciones .mxd-features-cards__title {
+  margin-bottom: 2rem;
 }
-
-/* PARTNERS */
-#partners-logos .marquee__item.item-partners img {
-  max-height: 140px;
-  object-fit: contain;
+#instituciones .mxd-features-cards__tags {
+  margin-bottom: 1.4rem;
+}
+#instituciones .mxd-features-cards__inner {
+  background-size: cover;
+}
+#instituciones .mxd-features-cards__inner.rapido {
+  background-image: url("../img/bg/rapido.jpg");
+  background-position-x: center;
+}
+#instituciones .mxd-features-cards__inner.formal {
+  background-image: url("../img/bg/formal.jpg");
+  background-position-x: left;
+}
+#instituciones .mxd-paragraph__controls {
+  position: absolute;
+  bottom: 4rem;
+  right: 3.6rem;
 }
 
 /* EMPRESAS */
 #empresas {
   background-color: #fff;
   padding: 120px 0 40px;
+}
+#empresas .empresas-title {
+  padding-right: 15%
 }
 #empresas h2,
 #empresas h5 {
@@ -213,4 +264,7 @@ footer .mxd-footer__footer-blocks {
 footer .footer-blocks__column {
   height: unset;
   max-width: 110rem;
+}
+footer .legal {
+  display: flex; flex-direction: row; gap: 3rem
 }
